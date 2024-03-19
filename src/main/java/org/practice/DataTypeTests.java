@@ -1,17 +1,19 @@
-package main.java.org.practice;
+package org.practice;
+
+import org.junit.jupiter.api.Test;
 
 import java.util.Scanner;
 
 
 
- public class dataTypeTest{
-    public static void main(String []argh)
+ public class DataTypeTests{
+     @Test
+    public void dataTypeCheck()
     {
 
-
-
         Scanner sc = new Scanner(System.in);
-        int t=sc.nextInt();
+        int t;//=sc.nextInt();
+        t = 132345;
 
         for(int i=0;i<t;i++)
         {
@@ -31,10 +33,8 @@ import java.util.Scanner;
                 {
                     System.out.println("* int");
                 }
-                if (x >= -Long.MIN_VALUE && x <= Long.MAX_VALUE) {
-                    System.out.println("* Long");
-                    //Complete the code+
-                }
+
+
             }
             catch(Exception e)
             {

@@ -1,9 +1,9 @@
-package main.java.org.practice;
+package org.practice;
 
 import java.util.*;
-public class StdInput {
+public class StdInputTests {
 
-    public static void main (String[] args){
+    public  void inputTest (){
 
         Scanner scan = new Scanner(System.in);
  System.out.print("Enter 3 numbers with space: ");

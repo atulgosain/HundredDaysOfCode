@@ -1,9 +1,14 @@
-package main.java.org.practice;
+package org.practice;
+
+import org.junit.jupiter.api.Test;
 
 import java.util.Scanner;
 
-public class dataTypeRead {
-    public static void main(String[] args){
+public class DataTypeReadTests {
+
+
+    @Test
+    public  void getDataTypes(){
 
         Scanner scn = new Scanner(System.in);
         int i = scn.nextInt();

@@ -1,8 +1,9 @@
-package main.java.org.practice;
+package org.practice;
+import org.junit.jupiter.api.Test;
 
-class countOccurances {
+class CountOccurancesTests {
 
-    static int cntOccurances(String str, String word)
+    static int cntOccurrences(String str, String word)
     {
         String a[]= str.split(" ");
 
@@ -26,11 +27,16 @@ class countOccurances {
 
 
     //Driver code
-     public static void main(String Args[]){
+    @Test
+     public  void getOccurance(
+
+     ){
         String str = "Geeks taking to geeks as tell me who is best geeks in all Geeks";
         String word = "Geeks";
 
-        System.out.println(cntOccurances(str, word));
+        int occuranceCount = cntOccurrences(str, word);
+
+        System.out.println("Occurance Count: "+occuranceCount);
 
     }
 }

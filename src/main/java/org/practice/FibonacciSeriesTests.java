@@ -1,7 +1,11 @@
-package main.java.org.practice;
+package org.practice;
 
-public class FibonacciSeries{
-    public static void main(String[] args)
+import org.junit.jupiter.api.Test;
+
+public class FibonacciSeriesTests
+{
+@Test
+public  void GetFibonicSeries()
     {
         int n1=0, n2=1,n3=0,count=15;
         System.out.print(n1+" "+n2);

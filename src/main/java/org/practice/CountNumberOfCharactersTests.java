@@ -1,10 +1,13 @@
-package main.java.org.practice;
+package org.practice;
+
+import org.junit.jupiter.api.Test;
 
 import java.util.Scanner;
 
-public class countNumberOfCharacters {
+public class CountNumberOfCharactersTests {
 
-    public static void main(String[] args){
+    @Test
+    public void countNumberOfChars(){
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Add the comments for getting size ");

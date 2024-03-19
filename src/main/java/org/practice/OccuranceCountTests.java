@@ -1,8 +1,10 @@
 package main.java.org.practice;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.Arrays;
 
-class OccuranceCountWithChanges {
+class OccuranceCountTests {
 
     static int cntOccurances(String source, String word)
     {
@@ -12,8 +14,9 @@ class OccuranceCountWithChanges {
 
     }
     //Driver code
-     public static void main(String Args[]){
-        String str = "Geeks taking to geeks as tell geeks me who is best geeks in all Geeks";
+    @Test
+     public  void OccCnt(){
+        String str = "Geeks taking to geeks as Geeks tell geeks me who is best geeks in all Geeks";
         String word = "Geeks";
 
         System.out.println(cntOccurances(str, word));

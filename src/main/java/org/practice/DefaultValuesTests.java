@@ -1,8 +1,8 @@
-package main.java.org.practice;
+package org.practice;
 
 // Java Program to demonstrate use of default values
 
-public class defaultValues {
+public class DefaultValuesTests {
     // static values
     static byte b;
     static int i;

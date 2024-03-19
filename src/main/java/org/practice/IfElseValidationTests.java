@@ -1,16 +1,16 @@
-package main.java.org.practice;
+package org.practice;
+import org.junit.jupiter.api.Test;
 
-import java.util.Scanner;
-
-public class IfElseValidation {
-    private static final Scanner scanner = new Scanner(System.in);
-    public static void main(String[] args) {
+public class IfElseValidationTests {
+  //  private static final Scanner scanner = new Scanner(System.in);
+    @Test
+    public void IfElseTest() {
         /*Scanner scanner = new Scanner(System.in);*/
 
-        int N = scanner.nextInt();
+        int N = 20;
         //scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
-        scanner.close();
+       // scanner.close();
 
         if (N % 2 != 0) {
             System.out.println("Weird");
